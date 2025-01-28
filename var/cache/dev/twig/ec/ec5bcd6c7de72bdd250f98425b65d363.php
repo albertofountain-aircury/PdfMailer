@@ -42,7 +42,7 @@ class __TwigTemplate_dc57a0e66129d5b6c6d14ab6a49f70a8 extends Template
         $__internal_6f47bbe9983af81f1e7450e9a3e3768f->enter($__internal_6f47bbe9983af81f1e7450e9a3e3768f_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "template", "pdf.html.twig"));
 
         // line 1
-        yield "<div dir=\"ltr\"><br></div>
+        yield "<div dir=\"ltr\">d<br></div>
 ";
         
         $__internal_6f47bbe9983af81f1e7450e9a3e3768f->leave($__internal_6f47bbe9983af81f1e7450e9a3e3768f_prof);
@@ -68,7 +68,7 @@ class __TwigTemplate_dc57a0e66129d5b6c6d14ab6a49f70a8 extends Template
 
     public function getSourceContext(): Source
     {
-        return new Source("<div dir=\"ltr\"><br></div>
+        return new Source("<div dir=\"ltr\">d<br></div>
 ", "pdf.html.twig", "/home/aircury/PdfMailer/templates/pdf.html.twig");
     }
 }

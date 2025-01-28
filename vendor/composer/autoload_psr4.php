@@ -60,5 +60,6 @@ return array(
     'Crwlr\\QueryString\\' => array($vendorDir . '/crwlr/query-string/src'),
     'Bref\\SymfonyBridge\\' => array($vendorDir . '/bref/symfony-bridge/src'),
     'Bref\\' => array($vendorDir . '/bref/bref/src'),
+    'App\\Tests\\' => array($baseDir . '/tests'),
     'App\\' => array($baseDir . '/src'),
 );
